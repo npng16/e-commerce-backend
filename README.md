@@ -1,10 +1,12 @@
 ## E-Commerce Application
 
 ## Github Rules - PLEASE READ
-- create your own branch to make your own changes to the current project
+- Create your own branch to make your own changes to the current project
 - make sure your project works BEFORE you commit your changes to YOUR branch
-- when done with task at hand, merge YOUR branch into "testing" branch and ask others to test your changes 
-- if changes are good, then ask lead to merge changes into main branch
+- When done with your task, test and ask others to test your changes BEFORE merging into testing branch
+- After you merge YOUR branch into "testing" branch, make sure to test again to ensure the application is running okay
+- After all tasks have been completed, tested, and merged in the testing branch and the project is running, <br/>
+ ask lead to merge testing into main branch
 
 ### Application to buy Revature Swag. 
 
