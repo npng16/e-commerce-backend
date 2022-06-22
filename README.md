@@ -1,5 +1,11 @@
 ## E-Commerce Application
 
+## Github Rules - PLEASE READ
+- create your own branch to make your own changes to the current project
+- make sure your project works BEFORE you commit your changes to YOUR branch
+- when done with task at hand, merge YOUR branch into "testing" branch and ask others to test your changes 
+- if changes are good, then ask lead to merge changes into main branch
+
 ### Application to buy Revature Swag. 
 
 This application is a functional website written in Java and typescript. It will allow users to register and select from listed products for purchase, add them to the cart, and check out. If a user forgets their password they can have it reset. A guest or user can look at products and get a pop up view of the item, and its discription. The user or guest can see how many of a product are in stock. The user or guest can search items by key word.
