@@ -1,5 +1,13 @@
 server:
   port: 5000
+management:
+  endpoint:
+    health:
+        show_details: "always"
+  endpoints:
+      web:
+          exposure:
+            include: "prometheus, health, info"
 spring:
   jpa:
     hibernate:
