@@ -1,13 +1,5 @@
 server:
   port: 5000
-management:
-  endpoint:
-    health:
-        show_details: "always"
-  endpoints:
-      web:
-          exposure:
-            include: "prometheus, health, info"
 spring:
   jpa:
     hibernate:
@@ -33,3 +25,10 @@ spring:
     username: ${LOCALEMAIL}
     password: ${EMAILPASSWORD}
     port: '587'
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - health
+        - prometheus
